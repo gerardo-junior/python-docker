@@ -6,7 +6,7 @@ fi
 
 if [ ! -z "$1" ]; then
     if [ -z "$(which -- $1)" ]; then
-        python "$@"
+        /usr/local/bin/python "$@"
     else
         exec "$@"
     fi

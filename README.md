@@ -1,4 +1,4 @@
-# Environment of pyhton
+# Environment of pyhton [![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/gerardojunior/python)
 
 ```
     [+] AUTOR:        Gerardo Junior
@@ -7,8 +7,6 @@
     [+] GITHUB:       https://github.com/gerardo-junior/python-docker.git
     [+] TELEGRAM:     @MrGerardoJunior
 ```
-
-[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/gerardojunior/python)
 
 > The project must be in the **/src** container folder 
 ## Tags available

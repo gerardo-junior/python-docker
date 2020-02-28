@@ -1,6 +1,6 @@
 ARG PYTHON_ENV=3.6
 
-FROM python:$PYTHON_ENV
+FROM python:$PYTHON_ENV-alpine
 
 RUN mkdir -p /src
 WORKDIR /src
