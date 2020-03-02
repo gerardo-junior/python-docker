@@ -19,6 +19,9 @@ RUN set -xe && \
     echo "$USER ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers.d/default && \
     chown -Rf $USER $WORKDIR
 
+# Clean up
+RUN apk -v cache clean
+
 COPY ./tools /opt/tools
 RUN chmod -R +x /opt/tools/
 
