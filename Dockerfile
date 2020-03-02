@@ -1,4 +1,3 @@
-
 LABEL maintainer="Gerardo Junior <me@gerardo-junior.com>"
 LABEL url="https://github.com/gerardo-junior/python-docker.git"
 
