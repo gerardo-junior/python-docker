@@ -1,5 +1,4 @@
 #!/bin/sh
-
 sudo chgrp -Rf ${USER} ${WORKDIR}
 
 if [ -e "$(pwd)/requirements.txt" ]; then
