@@ -1,3 +1,7 @@
+
+LABEL maintainer="Gerardo Junior <me@gerardo-junior.com>"
+LABEL url="https://github.com/gerardo-junior/python-docker.git"
+
 ARG PYTHON_ENV=3.6
 
 FROM python:$PYTHON_ENV-alpine
