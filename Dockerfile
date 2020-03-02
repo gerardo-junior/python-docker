@@ -20,7 +20,8 @@ RUN set -xe && \
     chown -Rf $USER $WORKDIR
 
 # Clean up
-RUN apk -v cache clean
+RUN apk -v cache clean && \
+    rm -rf /tmp/*
 
 COPY ./tools /opt/tools
 RUN chmod -R +x /opt/tools/
