@@ -1,4 +1,4 @@
-# Environment of pyhton [![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/gerardojunior/python)
+# Environment of pyhton [![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/gerardojunior/python) [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gerardo-junior/python-docker.git)
 
 ```
     [+] AUTOR:        Gerardo Junior
@@ -9,6 +9,7 @@
 ```
 
 > The project must be in the **/src** container folder 
+
 ## Tags available
 
 - [stable](https://github.com/gerardo-junior/python-docker/blob/master/Dockerfile), [latest](https://github.com/gerardo-junior/python-docker/blob/develop/Dockerfile)   
@@ -38,7 +39,7 @@ docker build https://github.com/gerardo-junior/python-docker.git --tag gerardoju
 docker run -it --rm -v $(pwd):/src gerardojunior/python:stable [command]
 
 # or docker-compose
-docker-compose run node [command]
+docker-compose run python [command]
 ```
 ##### With [docker-compose](https://docs.docker.com/compose/)
 
@@ -47,7 +48,7 @@ Create the docker-compose.yml file  in your project folder with:
 ```yml
 # (...)
 
-  node:
+  python:
     image: gerardojunior/python:stable
     restart: on-failure
     volumes:
@@ -64,9 +65,9 @@ Create the docker-compose.yml file  in your project folder with:
 ```bash
 docker run -it --rm gerardojunior/python sh
 # or with docker-compose
-docker-compose run node sh
+docker-compose run python sh
 ```
 
 ### License  
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/gerardo-junior/python-docker/blob/master/0LICENSE) file for details
 
