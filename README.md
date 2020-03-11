@@ -6,8 +6,6 @@
     [+] EMAIL:        [me@gerardo-junior.com](mailto:me@gerardo-junior.com)
     [+] SITE:         [https://gerardo-junior.com](https://gerardo-junior.com)
     [+] KEYBASE       [https://keybase.io/gerardojunior](https://keybase.io/gerardojunior)
-    [+] GITHUB:       [https://github.com/gerardo-junior/python-docker.git](https://github.com/gerardo-junior/python-docker.git)
-    [+] DOCKER:       [https://hub.docker.com/r/gerardojunior/python](https://hub.docker.com/r/gerardojunior/python)
     [+] TELEGRAM:     [@MrGerardoJunior](https://t.me/MrGerardoJunior)
 </pre></big>
 
