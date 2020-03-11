@@ -31,7 +31,7 @@ docker pull gerardojunior/python:stable
 
 to build the image you need install the [docker engine](https://www.docker.com/) only
 
-> You can try building with different versions of software with docker args, for example: PYTHON_ENV=3.6
+> You can try building with different versions of software with docker args, for example: PYTHON_VERSION=3.6
 
 ```bash
 docker build https://github.com/gerardo-junior/python-docker.git --tag gerardojunior/python
