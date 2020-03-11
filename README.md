@@ -18,9 +18,6 @@
 |-|-|
 | ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/gerardojunior/python?style=for-the-badge&tag=stable) | ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/gerardojunior/python?style=for-the-badge&tag=lastest) |
 
-- [stable](https://github.com/gerardo-junior/python-docker/blob/master/Dockerfile), [latest](https://github.com/gerardo-junior/python-docker/blob/develop/Dockerfile)   
-    - [library/python](https://hub.docker.com/_/python) 3.6
-
 ## Come on, do your tests
 
 ```bash
