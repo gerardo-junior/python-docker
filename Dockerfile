@@ -1,5 +1,6 @@
 LABEL maintainer="Gerardo Junior <me@gerardo-junior.com>"
 LABEL url="https://github.com/gerardo-junior/python-docker.git"
+LABEL version="1.0"
 
 ARG PYTHON_VERSION=3.6
 
