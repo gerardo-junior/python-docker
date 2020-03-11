@@ -1,16 +1,23 @@
-# Environment of pyhton [![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/gerardojunior/python) [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gerardo-junior/python-docker.git)
+# Environment of pyhton [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gerardo-junior/python-docker.git)
 
-```
-    [+] AUTOR:        Gerardo Junior
-    [+] SITE:         https://gerardo-junior.com
-    [+] EMAIL:        me@gerardo-junior.com
-    [+] GITHUB:       https://github.com/gerardo-junior/python-docker.git
-    [+] TELEGRAM:     @MrGerardoJunior
-```
+
+<big><pre>
+    [+] AUTHOR:       Gerardo Junior
+    [+] EMAIL:        [me@gerardo-junior.com](mailto:me@gerardo-junior.com)
+    [+] SITE:         [https://gerardo-junior.com](https://gerardo-junior.com)
+    [+] KEYBASE       [https://keybase.io/gerardojunior](https://keybase.io/gerardojunior)
+    [+] GITHUB:       [https://github.com/gerardo-junior/python-docker.git](https://github.com/gerardo-junior/python-docker.git)
+    [+] TELEGRAM:     [@MrGerardoJunior](https://t.me/MrGerardoJunior)
+</pre></big>
+
 
 > The project must be in the **/src** container folder 
 
 ## Tags available
+
+| [stable](https://github.com/gerardo-junior/python-docker/blob/master/Dockerfile) | [latest](https://github.com/gerardo-junior/python-docker/blob/develop/Dockerfile) |
+|-|-|
+| ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/gerardojunior/python?style=for-the-badge&tag=stable) | ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/gerardojunior/python?style=for-the-badge&tag=lastest) |
 
 - [stable](https://github.com/gerardo-junior/python-docker/blob/master/Dockerfile), [latest](https://github.com/gerardo-junior/python-docker/blob/develop/Dockerfile)   
     - [library/python](https://hub.docker.com/_/python) 3.6
